@@ -1,11 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import Countries from './components/Countries';
+import Posts from './components/Posts';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+
+      {/* <Countries></Countries> */}
+      <Posts></Posts>
       <StatusBar style="auto" />
+
     </View>
   );
 }
